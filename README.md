@@ -106,22 +106,3 @@ Check `analysis-output.txt` to ensure it matches the expected output. The file s
 1. **Largest indexes by storage size**
 2. **Largest indexes by shard count**
 3. **Least balanced indexes** (including each index’s recommended shard count)
-
-## Troubleshooting
-
-- Ensure the Jackson JAR paths are correct.
-- Verify the path to `example-in.json` is accurate.
-- Use `debug = true` when testing locally.
-- If you encounter any errors, check the console output for troubleshooting hints.
-
-## Contributing
-
-Feel free to fork this project and submit pull requests with improvements or fixes.
-
-## License
-
-This project is provided "AS-IS" without any warranty. Use it at your own risk.
-
----
-
-This README gives clear, step‑by‑step instructions for building and testing the project from GitHub. Feel free to modify any sections to match your project’s exact configuration and repository URL.
